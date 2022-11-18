@@ -1,0 +1,9 @@
+logUtils - INFO -  Started logging at: 20221018_16h54m46s
+logUtils - INFO -  Also logging to: data/avaParabola/runCom1DFA_20221018_16h54m46s.log
+logUtils - INFO -  AvaFrame Version: 1.3+6.g1e78e33a.dirty
+runCom1DFA - INFO -  MAIN SCRIPT
+runCom1DFA - INFO -  Current avalanche: data/avaParabola
+cfgUtils - INFO -  Reading config from: /home/user1/Master_Carina/AvaFrame/avaframe/com1DFA/com1DFACfg.ini and /home/user1/Master_Carina/AvaFrame/avaframe/com1DFA/local_com1DFACfg.ini
+cfgUtils - INFO -  Print is turned off, giving difference summary
+initializeProject - INFO -  Cleaned data/avaParabola/Inputs/DEMremeshed directory
+getInput - INFO -  Release area files are: ['data/avaParabola/Inputs/REL/release1PF.shp']

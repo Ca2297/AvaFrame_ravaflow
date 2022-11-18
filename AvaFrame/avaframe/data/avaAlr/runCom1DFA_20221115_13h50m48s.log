@@ -1,0 +1,416 @@
+logUtils - INFO -  Started logging at: 20221115_13h50m48s
+logUtils - INFO -  Also logging to: data/avaAlr/runCom1DFA_20221115_13h50m48s.log
+logUtils - INFO -  AvaFrame Version: 1.3+6.g1e78e33a.dirty
+runCom1DFA - INFO -  MAIN SCRIPT
+runCom1DFA - INFO -  Current avalanche: data/avaAlr
+cfgUtils - INFO -  Reading config from: /home/user1/Master_Carina/AvaFrame/avaframe/com1DFA/com1DFACfg.ini and /home/user1/Master_Carina/AvaFrame/avaframe/com1DFA/local_com1DFACfg.ini
+cfgUtils - INFO -  Print is turned off, giving difference summary
+cfgUtils - INFO -  		meshCellSize : 20 	(default value was : 5)
+initializeProject - INFO -  Cleaned data/avaAlr/Inputs/DEMremeshed directory
+getInput - INFO -  Release area files are: ['data/avaAlr/Inputs/REL/relAlr.shp']
+cfgUtils - INFO -  Reading config from: /home/user1/Master_Carina/AvaFrame/avaframe/com1DFA/com1DFACfg.ini and data/avaAlr/Outputs/com1DFA/relAlr_com1DFACfg.ini
+cfgUtils - INFO -  	GENERAL
+cfgUtils - INFO -  		simTypeList : available
+cfgUtils - INFO -  		modelType : dfa
+cfgUtils - INFO -  		resType : ppr|pft|pfv
+cfgUtils - INFO -  		tSteps : 0:5
+cfgUtils - INFO -  		initPartDistType : random
+cfgUtils - INFO -  		initialiseParticlesFromFile : False
+cfgUtils - INFO -  		particleFile : 
+cfgUtils - INFO -  		seed : 12345
+cfgUtils - INFO -  		iniStep : False
+cfgUtils - INFO -  		saveParticlesIni : False
+cfgUtils - INFO -  		subgridMixingFactorIni : 10.
+cfgUtils - INFO -  		dtIni : 0.1
+cfgUtils - INFO -  		sphOptionIni : 2
+cfgUtils - INFO -  		stopCritIni : 0.1
+cfgUtils - INFO -  		stopCritIniSmall : 1.001
+cfgUtils - INFO -  		maxIterations : 100
+cfgUtils - INFO -  		bufferZoneFactor : 4
+cfgUtils - INFO -  		additionallyFixedFactor : 0.275
+cfgUtils - INFO -  		ftOptionIni : False
+cfgUtils - INFO -  		rho : 200
+cfgUtils - INFO -  		rhoEnt : 100
+cfgUtils - INFO -  		relThFromShp : True
+cfgUtils - INFO -  		relThPercentVariation : 
+cfgUtils - INFO -  		relThRangeVariation : 
+cfgUtils - INFO -  		relThDistVariation : 
+cfgUtils - INFO -  		addStandardConfig : False
+cfgUtils - INFO -  		relTh : 
+cfgUtils - INFO -  		relThFromFile : False
+cfgUtils - INFO -  		secRelArea : True
+cfgUtils - INFO -  		secondaryRelThFromShp : True
+cfgUtils - INFO -  		secondaryRelThPercentVariation : 
+cfgUtils - INFO -  		secondaryRelThRangeVariation : 
+cfgUtils - INFO -  		secondaryRelThDistVariation : 
+cfgUtils - INFO -  		secondaryRelTh : 
+cfgUtils - INFO -  		entThFromShp : True
+cfgUtils - INFO -  		entThPercentVariation : 
+cfgUtils - INFO -  		entThRangeVariation : 
+cfgUtils - INFO -  		entThDistVariation : 
+cfgUtils - INFO -  		entTh : 
+cfgUtils - INFO -  		dt : 0.1
+cfgUtils - INFO -  		tEnd : 400
+cfgUtils - INFO -  		sphKernelRadiusTimeStepping : False
+cfgUtils - INFO -  		cMax : 0.02
+cfgUtils - INFO -  		stopCritType : kinEnergy
+cfgUtils - INFO -  		uFlowingThreshold : 0.01
+cfgUtils - INFO -  		stopCrit : 0.01
+cfgUtils - INFO -  		sphOption : 1
+cfgUtils - INFO -  		minRKern : 0.001
+cfgUtils - INFO -  		sphKernelRadius : 5
+cfgUtils - INFO -  		viscOption : 1
+cfgUtils - INFO -  		massPerParticleDeterminationMethod : MPPDH
+cfgUtils - INFO -  		massPerPart : 1250
+cfgUtils - INFO -  		deltaTh : 0.25
+cfgUtils - INFO -  		sphKR0 : 5
+cfgUtils - INFO -  		nPPK0 : 15
+cfgUtils - INFO -  		aPPK : -1.5
+cfgUtils - INFO -  		splitOption : 0
+cfgUtils - INFO -  		thresholdMassSplit : 1.5
+cfgUtils - INFO -  		distSplitPart : 0.41
+cfgUtils - INFO -  		nSplit : 2
+cfgUtils - INFO -  		cMinNPPK : 0.25
+cfgUtils - INFO -  		cMaxNPPK : 2.5
+cfgUtils - INFO -  		cMinMass : 0.25
+cfgUtils - INFO -  		cMaxnMass : 5
+cfgUtils - INFO -  		interpOption : 2
+cfgUtils - INFO -  		hmin : 0.05
+cfgUtils - INFO -  		meshCellSize : 20 	(default value was : 5)
+cfgUtils - INFO -  		meshCellSizeThreshold : 0.001
+cfgUtils - INFO -  		cleanDEMremeshed : True
+cfgUtils - INFO -  		methodMeshNormal : 1
+cfgUtils - INFO -  		reprojMethodForce : 2
+cfgUtils - INFO -  		reprojMethodPosition : 2
+cfgUtils - INFO -  		reprojectionIterations : 5
+cfgUtils - INFO -  		thresholdProjection : 0.001
+cfgUtils - INFO -  		subgridMixingFactor : 100.
+cfgUtils - INFO -  		gravAcc : 9.81
+cfgUtils - INFO -  		velMagMin : 1.0e-6
+cfgUtils - INFO -  		depMin : 1.0e-6
+cfgUtils - INFO -  		curvAccInFriction : 1
+cfgUtils - INFO -  		curvAccInTangent : 0
+cfgUtils - INFO -  		curvAccInGradient : 0
+cfgUtils - INFO -  		centeredPosition : 1
+cfgUtils - INFO -  		explicitFriction : 0
+cfgUtils - INFO -  		frictModel : Coulomb
+cfgUtils - INFO -  		mu : 0.155
+cfgUtils - INFO -  		tau0 : 0
+cfgUtils - INFO -  		Rs0 : 0.222
+cfgUtils - INFO -  		kappa : 0.43
+cfgUtils - INFO -  		R : 0.05
+cfgUtils - INFO -  		B : 4.13
+cfgUtils - INFO -  		xsi : 4000.
+cfgUtils - INFO -  		hRes : 10
+cfgUtils - INFO -  		cw : 0.5
+cfgUtils - INFO -  		dRes : 0.3
+cfgUtils - INFO -  		sres : 5
+cfgUtils - INFO -  		entEroEnergy : 5000
+cfgUtils - INFO -  		entShearResistance : 0
+cfgUtils - INFO -  		entDefResistance : 0
+cfgUtils - INFO -  		thresholdPointInPoly : 0.001
+cfgUtils - INFO -  	TRACKPARTICLES
+cfgUtils - INFO -  		trackParticles : False
+cfgUtils - INFO -  		centerTrackPartPoint : 2933|-4010
+cfgUtils - INFO -  		radius : 5
+cfgUtils - INFO -  		particleProperties : 
+cfgUtils - INFO -  	VISUALISATION
+cfgUtils - INFO -  		writePartToCSV : False
+cfgUtils - INFO -  		particleProperties : velocityMagnitude|m
+cfgUtils - INFO -  		createRangeTimeDiagram : False
+cfgUtils - INFO -  		TTdiagram : True
+cfgUtils - INFO -  		scenario : 
+cfgUtils - INFO -  	INPUT
+cfgUtils - INFO -  		releaseScenario : relAlr 	(default value was : )
+cfgUtils - INFO -  	REPORT
+cfgUtils - INFO -  		plotFields : ppr|pft|pfv
+cfgUtils - INFO -  		unitppr : kPa
+cfgUtils - INFO -  		unitpft : m
+cfgUtils - INFO -  		unitpfv : ms-1
+cfgUtils - INFO -  		DEM : avaAlr added to INPUT
+cfgUtils - INFO -  		relThId : 0 added to INPUT
+cfgUtils - INFO -  		relThThickness : 1.0 added to INPUT
+cfgUtils - INFO -  		relThCi95 : None added to INPUT
+cfgUtils - INFO -  		entThId : 0 added to INPUT
+cfgUtils - INFO -  		entThThickness : 0.3 added to INPUT
+cfgUtils - INFO -  		entThCi95 : None added to INPUT
+cfgUtils - INFO -  		entrainmentScenario : entAlr added to INPUT
+deriveParameterSet - INFO -  meshCellSize: 20 (default value was: 5)
+deriveParameterSet - INFO -  releaseScenario: relAlr (default value was: )
+geoTrans - INFO -  Remeshing the input DEM (of cell size 5 m) to a cell size of 20 m
+geoTrans - INFO -  Remeshed data extent difference x: 0.000000 and y 10.000000
+geoTrans - INFO -  Saved remeshed DEM to data/avaAlr/Inputs/DEMremeshed/avaAlr_remeshedDEM20.00.asc
+deriveParameterSet - INFO -  path to DEM is: DEMremeshed/avaAlr_remeshedDEM20.00.asc
+geoTrans - INFO -  Remeshed DEM found: avaAlr_remeshedDEM20.00.asc cellSize: 20.00000
+deriveParameterSet - INFO -  path to DEM is: DEMremeshed/avaAlr_remeshedDEM20.00.asc
+com1DFA - INFO -  The following simulations will be performed
+com1DFA - INFO -  Simulation: relAlr_33363e0eb4_ent_dfa
+com1DFA - INFO -  Simulation: relAlr_2fea64ade1_null_dfa
+com1DFA - INFO -  Run simulation: relAlr_33363e0eb4_ent_dfa
+com1DFA - INFO -  Perform relAlr_33363e0eb4_ent_dfa simulation
+com1DFA - INFO -  Release feature AlR, thickness: 1.00 - read from shp file
+com1DFA - INFO -  Initialized particles. MTot = 10113566.21 kg, 8096 particles in 138.00 cells.
+com1DFA - INFO -  Mass per particle = 1249.21 kg and particles per cell = 58.67.
+com1DFA - INFO -  Computing Pressure
+com1DFA - INFO -  Initializing entrainment area: data/avaAlr/Inputs/ENT/entAlr.shp
+com1DFA - INFO -  Entrainment area features: ['entAlr']
+com1DFA - INFO -  Entrainment feature entAlr, thickness: 0.30 - read from shp file
+geoTrans - WARNING -  Entrainment area feature overlapping with Release area - removing the overlapping part
+com1DFA - INFO -  Mass available for entrainment: 4066216.79 kg
+particleTools - INFO -  removed 2 particles because they exited the domain
+particleTools - INFO -  removed 3 particles because they exited the domain
+particleTools - INFO -  removed 7 particles because they exited the domain
+particleTools - INFO -  removed 13 particles because they exited the domain
+particleTools - INFO -  removed 15 particles because they exited the domain
+particleTools - INFO -  removed 16 particles because they exited the domain
+particleTools - INFO -  removed 14 particles because they exited the domain
+particleTools - INFO -  removed 17 particles because they exited the domain
+particleTools - INFO -  removed 21 particles because they exited the domain
+particleTools - INFO -  removed 20 particles because they exited the domain
+particleTools - INFO -  removed 21 particles because they exited the domain
+particleTools - INFO -  removed 21 particles because they exited the domain
+particleTools - INFO -  removed 24 particles because they exited the domain
+particleTools - INFO -  removed 24 particles because they exited the domain
+particleTools - INFO -  removed 21 particles because they exited the domain
+particleTools - INFO -  removed 28 particles because they exited the domain
+particleTools - INFO -  removed 25 particles because they exited the domain
+particleTools - INFO -  removed 29 particles because they exited the domain
+particleTools - INFO -  removed 32 particles because they exited the domain
+particleTools - INFO -  removed 37 particles because they exited the domain
+particleTools - INFO -  removed 49 particles because they exited the domain
+particleTools - INFO -  removed 58 particles because they exited the domain
+particleTools - INFO -  removed 75 particles because they exited the domain
+particleTools - INFO -  removed 96 particles because they exited the domain
+particleTools - INFO -  removed 113 particles because they exited the domain
+particleTools - INFO -  removed 116 particles because they exited the domain
+particleTools - INFO -  removed 133 particles because they exited the domain
+particleTools - INFO -  removed 160 particles because they exited the domain
+particleTools - INFO -  removed 176 particles because they exited the domain
+particleTools - INFO -  removed 197 particles because they exited the domain
+particleTools - INFO -  removed 212 particles because they exited the domain
+particleTools - INFO -  removed 233 particles because they exited the domain
+particleTools - INFO -  removed 254 particles because they exited the domain
+particleTools - INFO -  removed 286 particles because they exited the domain
+particleTools - INFO -  removed 291 particles because they exited the domain
+particleTools - INFO -  removed 320 particles because they exited the domain
+particleTools - INFO -  removed 307 particles because they exited the domain
+particleTools - INFO -  removed 323 particles because they exited the domain
+particleTools - INFO -  removed 342 particles because they exited the domain
+particleTools - INFO -  removed 340 particles because they exited the domain
+particleTools - INFO -  removed 341 particles because they exited the domain
+particleTools - INFO -  removed 338 particles because they exited the domain
+particleTools - INFO -  removed 331 particles because they exited the domain
+particleTools - INFO -  removed 339 particles because they exited the domain
+particleTools - INFO -  removed 329 particles because they exited the domain
+particleTools - INFO -  removed 314 particles because they exited the domain
+particleTools - INFO -  removed 294 particles because they exited the domain
+particleTools - INFO -  removed 276 particles because they exited the domain
+particleTools - INFO -  removed 252 particles because they exited the domain
+particleTools - INFO -  removed 241 particles because they exited the domain
+particleTools - INFO -  removed 214 particles because they exited the domain
+particleTools - INFO -  removed 200 particles because they exited the domain
+particleTools - INFO -  removed 179 particles because they exited the domain
+particleTools - INFO -  removed 162 particles because they exited the domain
+particleTools - INFO -  removed 148 particles because they exited the domain
+particleTools - INFO -  removed 133 particles because they exited the domain
+particleTools - INFO -  removed 114 particles because they exited the domain
+particleTools - INFO -  removed 104 particles because they exited the domain
+particleTools - INFO -  removed 83 particles because they exited the domain
+particleTools - INFO -  removed 65 particles because they exited the domain
+particleTools - INFO -  removed 58 particles because they exited the domain
+com1DFA - INFO -  stopping because of kinEnergy stopCriterion.
+particleTools - INFO -  removed 45 particles because they exited the domain
+com1DFA - INFO -  Ending computation at time t = 66.600000 s
+com1DFA - INFO -  MTot = 96652.565673 kg, 74 particles
+com1DFA - INFO -  Computational performances:
+com1DFA - INFO -  cpu time Force = 0.0036759909125103586 s
+com1DFA - INFO -  cpu time ForceSPH = 0.008374999488132825 s
+com1DFA - INFO -  cpu time Position = 0.0034923725042386032 s
+com1DFA - INFO -  cpu time Neighbour = 0.002009628773450494 s
+com1DFA - INFO -  cpu time Fields = 0.0013898344769113246 s
+com1DFA - INFO -  cpu time timeLoop = 0.0214805013236256 s
+com1DFA - INFO -  cpu time total other = 0.018942826155243606 s
+com1DFA - INFO -  cpu time DFA = 14.40 s
+com1DFA - INFO -  Run simulation: relAlr_2fea64ade1_null_dfa
+com1DFA - INFO -  Perform relAlr_2fea64ade1_null_dfa simulation
+com1DFA - INFO -  Release feature AlR, thickness: 1.00 - read from shp file
+com1DFA - INFO -  Initialized particles. MTot = 10113566.21 kg, 8096 particles in 138.00 cells.
+com1DFA - INFO -  Mass per particle = 1249.21 kg and particles per cell = 58.67.
+com1DFA - INFO -  Computing Pressure
+com1DFA - INFO -  Mass available for entrainment: 0.00 kg
+particleTools - INFO -  removed 4 particles because they exited the domain
+particleTools - INFO -  removed 6 particles because they exited the domain
+particleTools - INFO -  removed 3 particles because they exited the domain
+particleTools - INFO -  removed 1 particles because they exited the domain
+particleTools - INFO -  removed 5 particles because they exited the domain
+particleTools - INFO -  removed 3 particles because they exited the domain
+particleTools - INFO -  removed 4 particles because they exited the domain
+particleTools - INFO -  removed 7 particles because they exited the domain
+particleTools - INFO -  removed 3 particles because they exited the domain
+particleTools - INFO -  removed 7 particles because they exited the domain
+particleTools - INFO -  removed 2 particles because they exited the domain
+particleTools - INFO -  removed 6 particles because they exited the domain
+particleTools - INFO -  removed 1 particles because they exited the domain
+particleTools - INFO -  removed 3 particles because they exited the domain
+particleTools - INFO -  removed 3 particles because they exited the domain
+particleTools - INFO -  removed 2 particles because they exited the domain
+particleTools - INFO -  removed 5 particles because they exited the domain
+particleTools - INFO -  removed 3 particles because they exited the domain
+particleTools - INFO -  removed 1 particles because they exited the domain
+particleTools - INFO -  removed 6 particles because they exited the domain
+particleTools - INFO -  removed 4 particles because they exited the domain
+particleTools - INFO -  removed 5 particles because they exited the domain
+particleTools - INFO -  removed 9 particles because they exited the domain
+particleTools - INFO -  removed 16 particles because they exited the domain
+particleTools - INFO -  removed 14 particles because they exited the domain
+particleTools - INFO -  removed 18 particles because they exited the domain
+particleTools - INFO -  removed 18 particles because they exited the domain
+particleTools - INFO -  removed 21 particles because they exited the domain
+particleTools - INFO -  removed 18 particles because they exited the domain
+particleTools - INFO -  removed 22 particles because they exited the domain
+particleTools - INFO -  removed 20 particles because they exited the domain
+particleTools - INFO -  removed 22 particles because they exited the domain
+particleTools - INFO -  removed 18 particles because they exited the domain
+particleTools - INFO -  removed 15 particles because they exited the domain
+particleTools - INFO -  removed 18 particles because they exited the domain
+particleTools - INFO -  removed 16 particles because they exited the domain
+particleTools - INFO -  removed 18 particles because they exited the domain
+particleTools - INFO -  removed 19 particles because they exited the domain
+particleTools - INFO -  removed 20 particles because they exited the domain
+particleTools - INFO -  removed 25 particles because they exited the domain
+particleTools - INFO -  removed 17 particles because they exited the domain
+particleTools - INFO -  removed 23 particles because they exited the domain
+particleTools - INFO -  removed 15 particles because they exited the domain
+particleTools - INFO -  removed 26 particles because they exited the domain
+particleTools - INFO -  removed 22 particles because they exited the domain
+particleTools - INFO -  removed 19 particles because they exited the domain
+particleTools - INFO -  removed 23 particles because they exited the domain
+particleTools - INFO -  removed 19 particles because they exited the domain
+particleTools - INFO -  removed 19 particles because they exited the domain
+particleTools - INFO -  removed 19 particles because they exited the domain
+particleTools - INFO -  removed 21 particles because they exited the domain
+particleTools - INFO -  removed 15 particles because they exited the domain
+particleTools - INFO -  removed 24 particles because they exited the domain
+particleTools - INFO -  removed 17 particles because they exited the domain
+particleTools - INFO -  removed 23 particles because they exited the domain
+particleTools - INFO -  removed 21 particles because they exited the domain
+particleTools - INFO -  removed 20 particles because they exited the domain
+particleTools - INFO -  removed 18 particles because they exited the domain
+particleTools - INFO -  removed 15 particles because they exited the domain
+particleTools - INFO -  removed 18 particles because they exited the domain
+particleTools - INFO -  removed 17 particles because they exited the domain
+particleTools - INFO -  removed 16 particles because they exited the domain
+particleTools - INFO -  removed 17 particles because they exited the domain
+particleTools - INFO -  removed 17 particles because they exited the domain
+particleTools - INFO -  removed 15 particles because they exited the domain
+particleTools - INFO -  removed 16 particles because they exited the domain
+particleTools - INFO -  removed 14 particles because they exited the domain
+particleTools - INFO -  removed 13 particles because they exited the domain
+particleTools - INFO -  removed 10 particles because they exited the domain
+particleTools - INFO -  removed 13 particles because they exited the domain
+particleTools - INFO -  removed 14 particles because they exited the domain
+particleTools - INFO -  removed 12 particles because they exited the domain
+particleTools - INFO -  removed 13 particles because they exited the domain
+particleTools - INFO -  removed 12 particles because they exited the domain
+particleTools - INFO -  removed 13 particles because they exited the domain
+particleTools - INFO -  removed 16 particles because they exited the domain
+particleTools - INFO -  removed 10 particles because they exited the domain
+particleTools - INFO -  removed 13 particles because they exited the domain
+particleTools - INFO -  removed 14 particles because they exited the domain
+particleTools - INFO -  removed 11 particles because they exited the domain
+particleTools - INFO -  removed 10 particles because they exited the domain
+particleTools - INFO -  removed 6 particles because they exited the domain
+particleTools - INFO -  removed 8 particles because they exited the domain
+particleTools - INFO -  removed 8 particles because they exited the domain
+particleTools - INFO -  removed 10 particles because they exited the domain
+particleTools - INFO -  removed 8 particles because they exited the domain
+particleTools - INFO -  removed 13 particles because they exited the domain
+particleTools - INFO -  removed 7 particles because they exited the domain
+particleTools - INFO -  removed 15 particles because they exited the domain
+particleTools - INFO -  removed 14 particles because they exited the domain
+particleTools - INFO -  removed 16 particles because they exited the domain
+particleTools - INFO -  removed 13 particles because they exited the domain
+particleTools - INFO -  removed 16 particles because they exited the domain
+particleTools - INFO -  removed 8 particles because they exited the domain
+particleTools - INFO -  removed 10 particles because they exited the domain
+particleTools - INFO -  removed 8 particles because they exited the domain
+particleTools - INFO -  removed 9 particles because they exited the domain
+particleTools - INFO -  removed 11 particles because they exited the domain
+particleTools - INFO -  removed 11 particles because they exited the domain
+particleTools - INFO -  removed 10 particles because they exited the domain
+particleTools - INFO -  removed 17 particles because they exited the domain
+particleTools - INFO -  removed 15 particles because they exited the domain
+particleTools - INFO -  removed 18 particles because they exited the domain
+particleTools - INFO -  removed 18 particles because they exited the domain
+particleTools - INFO -  removed 23 particles because they exited the domain
+particleTools - INFO -  removed 20 particles because they exited the domain
+particleTools - INFO -  removed 22 particles because they exited the domain
+particleTools - INFO -  removed 18 particles because they exited the domain
+particleTools - INFO -  removed 22 particles because they exited the domain
+particleTools - INFO -  removed 22 particles because they exited the domain
+particleTools - INFO -  removed 19 particles because they exited the domain
+particleTools - INFO -  removed 18 particles because they exited the domain
+particleTools - INFO -  removed 22 particles because they exited the domain
+particleTools - INFO -  removed 23 particles because they exited the domain
+particleTools - INFO -  removed 28 particles because they exited the domain
+particleTools - INFO -  removed 43 particles because they exited the domain
+particleTools - INFO -  removed 52 particles because they exited the domain
+particleTools - INFO -  removed 43 particles because they exited the domain
+particleTools - INFO -  removed 53 particles because they exited the domain
+particleTools - INFO -  removed 68 particles because they exited the domain
+particleTools - INFO -  removed 82 particles because they exited the domain
+particleTools - INFO -  removed 87 particles because they exited the domain
+particleTools - INFO -  removed 99 particles because they exited the domain
+particleTools - INFO -  removed 102 particles because they exited the domain
+particleTools - INFO -  removed 116 particles because they exited the domain
+particleTools - INFO -  removed 113 particles because they exited the domain
+particleTools - INFO -  removed 135 particles because they exited the domain
+particleTools - INFO -  removed 126 particles because they exited the domain
+particleTools - INFO -  removed 139 particles because they exited the domain
+particleTools - INFO -  removed 140 particles because they exited the domain
+particleTools - INFO -  removed 154 particles because they exited the domain
+particleTools - INFO -  removed 161 particles because they exited the domain
+particleTools - INFO -  removed 176 particles because they exited the domain
+particleTools - INFO -  removed 168 particles because they exited the domain
+particleTools - INFO -  removed 182 particles because they exited the domain
+particleTools - INFO -  removed 189 particles because they exited the domain
+particleTools - INFO -  removed 192 particles because they exited the domain
+particleTools - INFO -  removed 198 particles because they exited the domain
+particleTools - INFO -  removed 190 particles because they exited the domain
+particleTools - INFO -  removed 198 particles because they exited the domain
+particleTools - INFO -  removed 188 particles because they exited the domain
+particleTools - INFO -  removed 182 particles because they exited the domain
+particleTools - INFO -  removed 181 particles because they exited the domain
+particleTools - INFO -  removed 189 particles because they exited the domain
+particleTools - INFO -  removed 180 particles because they exited the domain
+particleTools - INFO -  removed 175 particles because they exited the domain
+particleTools - INFO -  removed 183 particles because they exited the domain
+particleTools - INFO -  removed 161 particles because they exited the domain
+particleTools - INFO -  removed 156 particles because they exited the domain
+particleTools - INFO -  removed 169 particles because they exited the domain
+particleTools - INFO -  removed 145 particles because they exited the domain
+particleTools - INFO -  removed 146 particles because they exited the domain
+particleTools - INFO -  removed 136 particles because they exited the domain
+particleTools - INFO -  removed 130 particles because they exited the domain
+particleTools - INFO -  removed 120 particles because they exited the domain
+particleTools - INFO -  removed 122 particles because they exited the domain
+particleTools - INFO -  removed 105 particles because they exited the domain
+particleTools - INFO -  removed 103 particles because they exited the domain
+particleTools - INFO -  removed 90 particles because they exited the domain
+particleTools - INFO -  removed 77 particles because they exited the domain
+particleTools - INFO -  removed 61 particles because they exited the domain
+particleTools - INFO -  removed 58 particles because they exited the domain
+particleTools - INFO -  removed 44 particles because they exited the domain
+com1DFA - INFO -  stopping because of kinEnergy stopCriterion.
+particleTools - INFO -  removed 38 particles because they exited the domain
+com1DFA - INFO -  Ending computation at time t = 64.200000 s
+com1DFA - INFO -  MTot = 192681.554816 kg, 154 particles
+com1DFA - INFO -  Computational performances:
+com1DFA - INFO -  cpu time Force = 0.0034694237805451057 s
+com1DFA - INFO -  cpu time ForceSPH = 0.006414533217624409 s
+com1DFA - INFO -  cpu time Position = 0.0035054672561574316 s
+com1DFA - INFO -  cpu time Neighbour = 0.0020424374154715294 s
+com1DFA - INFO -  cpu time Fields = 0.0013347421055818977 s
+com1DFA - INFO -  cpu time timeLoop = 0.01851390754082711 s
+com1DFA - INFO -  cpu time total other = 0.016766603775380372 s
+com1DFA - INFO -  cpu time DFA = 11.98 s

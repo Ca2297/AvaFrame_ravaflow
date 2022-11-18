@@ -1,0 +1,117 @@
+logUtils - INFO -  Started logging at: 14.10.2022 16:12:15
+logUtils - INFO -  Also logging to: data/avaSalk/runCom1DFA.log
+runCom1DFA - INFO -  MAIN SCRIPT
+runCom1DFA - INFO -  Current avalanche: data/avaSalk
+cfgUtils - INFO -  Reading config from: /home/user1/Master_Carina/Avaframe/avaframe_dev/AvaFrame/avaframe/com1DFA/com1DFACfg.ini and /home/user1/Master_Carina/Avaframe/avaframe_dev/AvaFrame/avaframe/com1DFA/local_com1DFACfg.ini
+cfgUtils - INFO -  	GENERAL
+cfgUtils - INFO -  		simTypeList : available
+cfgUtils - INFO -  		modelType : dfa
+cfgUtils - INFO -  		resType : ppr|pfd|pfv
+cfgUtils - INFO -  		tSteps : 0:10 	(default value was : 0:5)
+cfgUtils - INFO -  		initPartDistType : random
+cfgUtils - INFO -  		initialiseParticlesFromFile : False
+cfgUtils - INFO -  		particleFile : 
+cfgUtils - INFO -  		seed : 12345
+cfgUtils - INFO -  		iniStep : False
+cfgUtils - INFO -  		subgridMixingFactorIni : 10.
+cfgUtils - INFO -  		dtIni : 0.1
+cfgUtils - INFO -  		sphOptionIni : 2
+cfgUtils - INFO -  		stopCritIni : 0.1
+cfgUtils - INFO -  		stopCritIniSmall : 1.001
+cfgUtils - INFO -  		maxIterations : 100
+cfgUtils - INFO -  		bufferZoneFactor : 4
+cfgUtils - INFO -  		additionallyFixedFactor : 0.275
+cfgUtils - INFO -  		fdOptionIni : False
+cfgUtils - INFO -  		rho : 200
+cfgUtils - INFO -  		rhoEnt : 100
+cfgUtils - INFO -  		relThFromShp : False 	(default value was : True)
+cfgUtils - INFO -  		relThPercentVariation : 
+cfgUtils - INFO -  		relThRangeVariation : 
+cfgUtils - INFO -  		addStandardConfig : False
+cfgUtils - INFO -  		relTh : 0.3 	(default value was : )
+cfgUtils - INFO -  		relThFromFile : False
+cfgUtils - INFO -  		secRelArea : False
+cfgUtils - INFO -  		secondaryRelThFromShp : True
+cfgUtils - INFO -  		secondaryRelThPercentVariation : 
+cfgUtils - INFO -  		secondaryRelThRangeVariation : 
+cfgUtils - INFO -  		secondaryRelTh : 
+cfgUtils - INFO -  		entThFromShp : True
+cfgUtils - INFO -  		entThPercentVariation : 
+cfgUtils - INFO -  		entThRangeVariation : 
+cfgUtils - INFO -  		entTh : 
+cfgUtils - INFO -  		dt : 0.1
+cfgUtils - INFO -  		tEnd : 300 	(default value was : 400)
+cfgUtils - INFO -  		cflTimeStepping : False
+cfgUtils - INFO -  		sphKernelRadiusTimeStepping : False
+cfgUtils - INFO -  		cMax : 0.5
+cfgUtils - INFO -  		cflIterConstant : 5
+cfgUtils - INFO -  		constrainCFL : False
+cfgUtils - INFO -  		maxdT : 0.5
+cfgUtils - INFO -  		mindT : 0.01
+cfgUtils - INFO -  		stopCritType : kinEnergy
+cfgUtils - INFO -  		uFlowingThreshold : 0.01
+cfgUtils - INFO -  		stopCrit : 0.01
+cfgUtils - INFO -  		sphOption : 1
+cfgUtils - INFO -  		minRKern : 0.001
+cfgUtils - INFO -  		sphKernelRadius : 5
+cfgUtils - INFO -  		viscOption : 0 	(default value was : 1)
+cfgUtils - INFO -  		massPerParticleDeterminationMethod : MPPDH
+cfgUtils - INFO -  		massPerPart : 1250
+cfgUtils - INFO -  		deltaTh : 0.25
+cfgUtils - INFO -  		sphKR0 : 5
+cfgUtils - INFO -  		nPPK0 : 15
+cfgUtils - INFO -  		aPPK : -1.5
+cfgUtils - INFO -  		splitOption : 0
+cfgUtils - INFO -  		thresholdMassSplit : 1.5
+cfgUtils - INFO -  		distSplitPart : 0.41
+cfgUtils - INFO -  		nSplit : 2
+cfgUtils - INFO -  		cMinNPPK : 0.25
+cfgUtils - INFO -  		cMaxNPPK : 2.5
+cfgUtils - INFO -  		cMinMass : 0.25
+cfgUtils - INFO -  		cMaxnMass : 5
+cfgUtils - INFO -  		interpOption : 2
+cfgUtils - INFO -  		hmin : 0.05
+cfgUtils - INFO -  		meshCellSize : 5
+cfgUtils - INFO -  		meshCellSizeThreshold : 0.001
+cfgUtils - INFO -  		methodMeshNormal : 1
+cfgUtils - INFO -  		distReproj : 0
+cfgUtils - INFO -  		reprojectionIterations : 5
+cfgUtils - INFO -  		thresholdProjection : 0.001
+cfgUtils - INFO -  		subgridMixingFactor : 100.
+cfgUtils - INFO -  		gravAcc : 9.81
+cfgUtils - INFO -  		velMagMin : 1.0e-6
+cfgUtils - INFO -  		depMin : 1.0e-6
+cfgUtils - INFO -  		curvAcceleration : 1
+cfgUtils - INFO -  		explicitFriction : 0
+cfgUtils - INFO -  		frictModel : Voellmy 	(default value was : samosAT)
+cfgUtils - INFO -  		mu : 0.155
+cfgUtils - INFO -  		Rs0 : 0.222
+cfgUtils - INFO -  		kappa : 0.43
+cfgUtils - INFO -  		R : 0.05
+cfgUtils - INFO -  		B : 4.13
+cfgUtils - INFO -  		xsi : 4000.
+cfgUtils - INFO -  		hRes : 10
+cfgUtils - INFO -  		cw : 0.5
+cfgUtils - INFO -  		dRes : 0.3
+cfgUtils - INFO -  		sres : 5
+cfgUtils - INFO -  		entEroEnergy : 5000
+cfgUtils - INFO -  		entShearResistance : 0
+cfgUtils - INFO -  		entDefResistance : 0
+cfgUtils - INFO -  		thresholdPointInPoly : 0.001
+cfgUtils - INFO -  	TRACKPARTICLES
+cfgUtils - INFO -  		trackParticles : False
+cfgUtils - INFO -  		centerTrackPartPoint : 2933|-4010
+cfgUtils - INFO -  		radius : 5
+cfgUtils - INFO -  		particleProperties : 
+cfgUtils - INFO -  	VISUALISATION
+cfgUtils - INFO -  		writePartToCSV : False
+cfgUtils - INFO -  		particleProperties : velocityMagnitude|m
+cfgUtils - INFO -  	INPUT
+cfgUtils - INFO -  		releaseScenario : 
+cfgUtils - INFO -  	REPORT
+cfgUtils - INFO -  		plotFields : ppr|pfd|pfv
+cfgUtils - INFO -  		unitppr : kPa
+cfgUtils - INFO -  		unitpfd : m
+cfgUtils - INFO -  		unitpfv : ms-1
+getInput - INFO -  Release area files are: []
+getInput - ERROR -  No topography .asc file in data/avaSalk/Inputs/

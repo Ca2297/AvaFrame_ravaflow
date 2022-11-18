@@ -1,0 +1,1 @@
+nrun, vhr, vhem, rho1, phi1, delta1, flufri1, ny1, tauy1, centr, cstop, cvshear, deltab, ambdrag, chi1, ry, kpmax, dispmult, cconst, betaplain, vhmax, fricmin, ekincoef

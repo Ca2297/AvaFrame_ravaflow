@@ -1,0 +1,17 @@
+logUtils - INFO -  Started logging at: 20221115_11h31m49s
+logUtils - INFO -  Also logging to: initializeProject_20221115_11h31m49s.log
+logUtils - INFO -  AvaFrame Version: 1.3+6.g1e78e33a.dirty
+runInitializeProject - INFO -  MAIN SCRIPT
+runInitializeProject - INFO -  Initializing Project: data/avaBowl
+initializeProject - INFO -  Running initialization sequence for avalanche avaBowl
+initializeProject - WARNING -  Folder avaBowl already exists. Continuing
+initializeProject - INFO -  Folder exists: data/avaBowl/Inputs, Skipping
+initializeProject - INFO -  Folder exists: data/avaBowl/Inputs/RES, Skipping
+initializeProject - INFO -  Folder exists: data/avaBowl/Inputs/REL, Skipping
+initializeProject - INFO -  Folder exists: data/avaBowl/Inputs/SECREL, Skipping
+initializeProject - INFO -  Folder exists: data/avaBowl/Inputs/ENT, Skipping
+initializeProject - INFO -  Folder exists: data/avaBowl/Inputs/POINTS, Skipping
+initializeProject - INFO -  Folder exists: data/avaBowl/Inputs/LINES, Skipping
+initializeProject - INFO -  Folder exists: data/avaBowl/Outputs, Skipping
+initializeProject - INFO -  Folder exists: data/avaBowl/Work, Skipping
+initializeProject - INFO -  Done initializing avalanche avaBowl

@@ -1,0 +1,182 @@
+logUtils - INFO -  Started logging at: 20221018_16h57m24s
+logUtils - INFO -  Also logging to: data/avaParabola/runCom1DFA_20221018_16h57m24s.log
+logUtils - INFO -  AvaFrame Version: 1.3+6.g1e78e33a
+runCom1DFA - INFO -  MAIN SCRIPT
+runCom1DFA - INFO -  Current avalanche: data/avaParabola
+cfgUtils - INFO -  Reading config from: /home/user1/Master_Carina/AvaFrame/avaframe/com1DFA/com1DFACfg.ini and /home/user1/Master_Carina/AvaFrame/avaframe/com1DFA/local_com1DFACfg.ini
+cfgUtils - INFO -  Print is turned off, giving difference summary
+initializeProject - INFO -  Cleaned data/avaParabola/Inputs/DEMremeshed directory
+getInput - INFO -  Release area files are: ['data/avaParabola/Inputs/REL/release1PF.shp']
+cfgUtils - INFO -  Reading config from: /home/user1/Master_Carina/AvaFrame/avaframe/com1DFA/com1DFACfg.ini and data/avaParabola/Outputs/com1DFA/release1PF_com1DFACfg.ini
+cfgUtils - INFO -  	GENERAL
+cfgUtils - INFO -  		simTypeList : available
+cfgUtils - INFO -  		modelType : dfa
+cfgUtils - INFO -  		resType : ppr|pft|pfv
+cfgUtils - INFO -  		tSteps : 1
+cfgUtils - INFO -  		initPartDistType : random
+cfgUtils - INFO -  		initialiseParticlesFromFile : False
+cfgUtils - INFO -  		particleFile : 
+cfgUtils - INFO -  		seed : 12345
+cfgUtils - INFO -  		iniStep : False
+cfgUtils - INFO -  		saveParticlesIni : False
+cfgUtils - INFO -  		subgridMixingFactorIni : 10.
+cfgUtils - INFO -  		dtIni : 0.1
+cfgUtils - INFO -  		sphOptionIni : 2
+cfgUtils - INFO -  		stopCritIni : 0.1
+cfgUtils - INFO -  		stopCritIniSmall : 1.001
+cfgUtils - INFO -  		maxIterations : 100
+cfgUtils - INFO -  		bufferZoneFactor : 4
+cfgUtils - INFO -  		additionallyFixedFactor : 0.275
+cfgUtils - INFO -  		ftOptionIni : False
+cfgUtils - INFO -  		rho : 200
+cfgUtils - INFO -  		rhoEnt : 100
+cfgUtils - INFO -  		relThFromShp : True
+cfgUtils - INFO -  		relThPercentVariation : 
+cfgUtils - INFO -  		relThRangeVariation : 
+cfgUtils - INFO -  		relThDistVariation : 
+cfgUtils - INFO -  		addStandardConfig : False
+cfgUtils - INFO -  		relTh : 
+cfgUtils - INFO -  		relThFromFile : False
+cfgUtils - INFO -  		secRelArea : True
+cfgUtils - INFO -  		secondaryRelThFromShp : True
+cfgUtils - INFO -  		secondaryRelThPercentVariation : 
+cfgUtils - INFO -  		secondaryRelThRangeVariation : 
+cfgUtils - INFO -  		secondaryRelThDistVariation : 
+cfgUtils - INFO -  		secondaryRelTh : 
+cfgUtils - INFO -  		entThFromShp : True
+cfgUtils - INFO -  		entThPercentVariation : 
+cfgUtils - INFO -  		entThRangeVariation : 
+cfgUtils - INFO -  		entThDistVariation : 
+cfgUtils - INFO -  		entTh : 
+cfgUtils - INFO -  		dt : 0.1
+cfgUtils - INFO -  		tEnd : 400
+cfgUtils - INFO -  		sphKernelRadiusTimeStepping : False
+cfgUtils - INFO -  		cMax : 0.02
+cfgUtils - INFO -  		stopCritType : kinEnergy
+cfgUtils - INFO -  		uFlowingThreshold : 0.01
+cfgUtils - INFO -  		stopCrit : 0.01
+cfgUtils - INFO -  		sphOption : 1
+cfgUtils - INFO -  		minRKern : 0.001
+cfgUtils - INFO -  		sphKernelRadius : 5
+cfgUtils - INFO -  		viscOption : 1
+cfgUtils - INFO -  		massPerParticleDeterminationMethod : MPPDH
+cfgUtils - INFO -  		massPerPart : 1250
+cfgUtils - INFO -  		deltaTh : 0.25
+cfgUtils - INFO -  		sphKR0 : 5
+cfgUtils - INFO -  		nPPK0 : 15
+cfgUtils - INFO -  		aPPK : -1.5
+cfgUtils - INFO -  		splitOption : 0
+cfgUtils - INFO -  		thresholdMassSplit : 1.5
+cfgUtils - INFO -  		distSplitPart : 0.41
+cfgUtils - INFO -  		nSplit : 2
+cfgUtils - INFO -  		cMinNPPK : 0.25
+cfgUtils - INFO -  		cMaxNPPK : 2.5
+cfgUtils - INFO -  		cMinMass : 0.25
+cfgUtils - INFO -  		cMaxnMass : 5
+cfgUtils - INFO -  		interpOption : 2
+cfgUtils - INFO -  		hmin : 0.05
+cfgUtils - INFO -  		meshCellSize : 5
+cfgUtils - INFO -  		meshCellSizeThreshold : 0.001
+cfgUtils - INFO -  		cleanDEMremeshed : True
+cfgUtils - INFO -  		methodMeshNormal : 1
+cfgUtils - INFO -  		reprojMethodForce : 2
+cfgUtils - INFO -  		reprojMethodPosition : 2
+cfgUtils - INFO -  		reprojectionIterations : 5
+cfgUtils - INFO -  		thresholdProjection : 0.001
+cfgUtils - INFO -  		subgridMixingFactor : 100.
+cfgUtils - INFO -  		gravAcc : 9.81
+cfgUtils - INFO -  		velMagMin : 1.0e-6
+cfgUtils - INFO -  		depMin : 1.0e-6
+cfgUtils - INFO -  		curvAccInFriction : 1
+cfgUtils - INFO -  		curvAccInTangent : 0
+cfgUtils - INFO -  		curvAccInGradient : 0
+cfgUtils - INFO -  		centeredPosition : 1
+cfgUtils - INFO -  		explicitFriction : 0
+cfgUtils - INFO -  		frictModel : samosAT
+cfgUtils - INFO -  		mu : 0.155
+cfgUtils - INFO -  		tau0 : 0
+cfgUtils - INFO -  		Rs0 : 0.222
+cfgUtils - INFO -  		kappa : 0.43
+cfgUtils - INFO -  		R : 0.05
+cfgUtils - INFO -  		B : 4.13
+cfgUtils - INFO -  		xsi : 4000.
+cfgUtils - INFO -  		hRes : 10
+cfgUtils - INFO -  		cw : 0.5
+cfgUtils - INFO -  		dRes : 0.3
+cfgUtils - INFO -  		sres : 5
+cfgUtils - INFO -  		entEroEnergy : 5000
+cfgUtils - INFO -  		entShearResistance : 0
+cfgUtils - INFO -  		entDefResistance : 0
+cfgUtils - INFO -  		thresholdPointInPoly : 0.001
+cfgUtils - INFO -  	TRACKPARTICLES
+cfgUtils - INFO -  		trackParticles : False
+cfgUtils - INFO -  		centerTrackPartPoint : 2933|-4010
+cfgUtils - INFO -  		radius : 5
+cfgUtils - INFO -  		particleProperties : 
+cfgUtils - INFO -  	VISUALISATION
+cfgUtils - INFO -  		writePartToCSV : False
+cfgUtils - INFO -  		particleProperties : velocityMagnitude|m
+cfgUtils - INFO -  		createRangeTimeDiagram : False
+cfgUtils - INFO -  		TTdiagram : True
+cfgUtils - INFO -  		scenario : 
+cfgUtils - INFO -  	INPUT
+cfgUtils - INFO -  		releaseScenario : release1PF 	(default value was : )
+cfgUtils - INFO -  	REPORT
+cfgUtils - INFO -  		plotFields : ppr|pft|pfv
+cfgUtils - INFO -  		unitppr : kPa
+cfgUtils - INFO -  		unitpft : m
+cfgUtils - INFO -  		unitpfv : ms-1
+cfgUtils - INFO -  		DEM : DEM_PF_Topo added to INPUT
+cfgUtils - INFO -  		relThId : 0 added to INPUT
+cfgUtils - INFO -  		relThThickness : 1.0 added to INPUT
+cfgUtils - INFO -  		relThCi95 : None added to INPUT
+deriveParameterSet - INFO -  releaseScenario: release1PF (default value was: )
+deriveParameterSet - INFO -  DEM taken from Inputs/
+deriveParameterSet - INFO -  path to DEM is: DEM_PF_Topo.asc
+deriveParameterSet - INFO -  DEM taken from Inputs/
+deriveParameterSet - INFO -  path to DEM is: DEM_PF_Topo.asc
+com1DFA - INFO -  The following simulations will be performed
+com1DFA - INFO -  Simulation: release1PF_a28da7583c_null_dfa
+com1DFA - INFO -  Simulation: release1PF_cad6a6d628_res_dfa
+com1DFA - INFO -  Run simulation: release1PF_a28da7583c_null_dfa
+shpConversion - WARNING -  No projection layer for shp file data/avaParabola/Inputs/REL/release1PF.shp
+com1DFA - INFO -  Perform release1PF_a28da7583c_null_dfa simulation
+com1DFA - INFO -  Release feature Rel_Example, thickness: 1.00 - read from shp file
+com1DFA - INFO -  Initialized particles. MTot = 20672345.03 kg, 16525 particles in 3570.00 cells.
+com1DFA - INFO -  Mass per particle = 1250.97 kg and particles per cell = 4.63.
+com1DFA - INFO -  Computing Pressure
+com1DFA - INFO -  Mass available for entrainment: 0.00 kg
+com1DFA - INFO -  stopping because of kinEnergy stopCriterion.
+com1DFA - INFO -  Ending computation at time t = 155.700000 s
+com1DFA - INFO -  MTot = 20672345.029725 kg, 16525 particles
+com1DFA - INFO -  Computational performances:
+com1DFA - INFO -  cpu time Force = 0.007666531821117474 s
+com1DFA - INFO -  cpu time ForceSPH = 0.008473605185326317 s
+com1DFA - INFO -  cpu time Position = 0.006596944757542347 s
+com1DFA - INFO -  cpu time Neighbour = 0.0026892138996540507 s
+com1DFA - INFO -  cpu time Fields = 0.011538599666796233 s
+com1DFA - INFO -  cpu time timeLoop = 0.04001016365854364 s
+com1DFA - INFO -  cpu time total other = 0.036964895330436426 s
+com1DFA - INFO -  cpu time DFA = 63.45 s
+com1DFA - INFO -  Run simulation: release1PF_cad6a6d628_res_dfa
+shpConversion - WARNING -  No projection layer for shp file data/avaParabola/Inputs/REL/release1PF.shp
+com1DFA - INFO -  Perform release1PF_cad6a6d628_res_dfa simulation
+com1DFA - INFO -  Release feature Rel_Example, thickness: 1.00 - read from shp file
+com1DFA - INFO -  Initialized particles. MTot = 20672345.03 kg, 16525 particles in 3570.00 cells.
+com1DFA - INFO -  Mass per particle = 1250.97 kg and particles per cell = 4.63.
+com1DFA - INFO -  Computing Pressure
+com1DFA - INFO -  Mass available for entrainment: 0.00 kg
+com1DFA - INFO -  Initializing resistance area: data/avaParabola/Inputs/RES/resistance1PF.shp
+com1DFA - INFO -  Resistance area features: ['']
+com1DFA - INFO -  stopping because of kinEnergy stopCriterion.
+com1DFA - INFO -  Ending computation at time t = 158.500000 s
+com1DFA - INFO -  MTot = 20672345.029725 kg, 16525 particles
+com1DFA - INFO -  Computational performances:
+com1DFA - INFO -  cpu time Force = 0.007726126781478055 s
+com1DFA - INFO -  cpu time ForceSPH = 0.008519928963457952 s
+com1DFA - INFO -  cpu time Position = 0.006741256010336954 s
+com1DFA - INFO -  cpu time Neighbour = 0.002751093043054338 s
+com1DFA - INFO -  cpu time Fields = 0.011867648866708764 s
+com1DFA - INFO -  cpu time timeLoop = 0.04063965423410808 s
+com1DFA - INFO -  cpu time total other = 0.03760605366503606 s
+com1DFA - INFO -  cpu time DFA = 65.51 s

@@ -1,0 +1,34 @@
+logUtils - INFO -  Started logging at: 20221105_11h24m02s
+logUtils - INFO -  Also logging to: data/avaAlr/runAna3AIMECCompMods_20221105_11h24m02s.log
+logUtils - INFO -  AvaFrame Version: 1.3+6.g1e78e33a.dirty
+runAna3AIMECCompMods - INFO -  MAIN SCRIPT
+runAna3AIMECCompMods - INFO -  Current avalanche: data/avaAlr
+cfgUtils - INFO -  Reading config from: /home/user1/Master_Carina/AvaFrame/avaframe/ana3AIMEC/ana3AIMECCfg.ini and /home/user1/Master_Carina/AvaFrame/avaframe/ana3AIMEC/local_ana3AIMECCfg.ini
+cfgUtils - INFO -  	AIMECSETUP
+cfgUtils - INFO -  		domainWidth : 600
+cfgUtils - INFO -  		cellSizeSL : 
+cfgUtils - INFO -  		startOfRunoutAreaAngle : 10
+cfgUtils - INFO -  		resTypes : ppr|pft|pfv
+cfgUtils - INFO -  		runoutResType : ppr
+cfgUtils - INFO -  		thresholdValue : 1
+cfgUtils - INFO -  		contourLevels : 1|3|5|10
+cfgUtils - INFO -  		diffLim : 1
+cfgUtils - INFO -  		percentile : 5
+cfgUtils - INFO -  		interpMethod : bilinear
+cfgUtils - INFO -  		dsMin : 30
+cfgUtils - INFO -  		anaMod :  	(default value was : com1DFA)
+cfgUtils - INFO -  		comModules : com1DFA|r_avaflow 	(default value was : )
+cfgUtils - INFO -  		testName : 
+cfgUtils - INFO -  		varParList : 
+cfgUtils - INFO -  		ascendingOrder : True
+cfgUtils - INFO -  		referenceSimValue : 
+cfgUtils - INFO -  		referenceSimName : 
+cfgUtils - INFO -  		unit : 
+cfgUtils - INFO -  	FLAGS
+cfgUtils - INFO -  		typeFlag : 3
+cfgUtils - INFO -  		nDensityPlot : 100
+cfgUtils - INFO -  		flagMass : True
+initializeProject - INFO -  Cleaning module ana3AIMEC in folder: data/avaAlr/Outputs 
+dfa2Aimec - INFO -  Reference data is from module: com1DFA
+dfa2Aimec - INFO -  Comparison data is from module: r_avaflow
+fileHandlerUtils - ERROR -  Input directory data/avaAlr/Outputs/r_avaflow/peakFiles does not exist - check anaMod

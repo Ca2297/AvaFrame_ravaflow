@@ -1,0 +1,5 @@
+Criterion	Value
+
+Entrained PHASE 1 volume VE1	-20377 cubic metres
+Entrained PHASE 2 volume VE2	0 cubic metres
+Entrained PHASE 3 volume VE3	0 cubic metres

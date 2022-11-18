@@ -1,0 +1,594 @@
+logUtils - INFO -  Started logging at: 20221026_15h14m45s
+logUtils - INFO -  Also logging to: data/avaGar/runCom1DFA_20221026_15h14m45s.log
+logUtils - INFO -  AvaFrame Version: 1.3+6.g1e78e33a.dirty
+runCom1DFA - INFO -  MAIN SCRIPT
+runCom1DFA - INFO -  Current avalanche: data/avaGar
+cfgUtils - INFO -  Reading config from: /home/user1/Master_Carina/AvaFrame/avaframe/com1DFA/com1DFACfg.ini and /home/user1/Master_Carina/AvaFrame/avaframe/com1DFA/local_com1DFACfg.ini
+cfgUtils - INFO -  Print is turned off, giving difference summary
+initializeProject - INFO -  Cleaned data/avaGar/Inputs/DEMremeshed directory
+getInput - INFO -  Release area files are: ['data/avaGar/Inputs/REL/relGar.shp', 'data/avaGar/Inputs/REL/relGar2.shp', 'data/avaGar/Inputs/REL/relGar6.shp']
+cfgUtils - INFO -  Reading config from: /home/user1/Master_Carina/AvaFrame/avaframe/com1DFA/com1DFACfg.ini and data/avaGar/Outputs/com1DFA/relGar_com1DFACfg.ini
+cfgUtils - INFO -  	GENERAL
+cfgUtils - INFO -  		simTypeList : available
+cfgUtils - INFO -  		modelType : dfa
+cfgUtils - INFO -  		resType : ppr|pft|pfv
+cfgUtils - INFO -  		tSteps : 1
+cfgUtils - INFO -  		initPartDistType : random
+cfgUtils - INFO -  		initialiseParticlesFromFile : False
+cfgUtils - INFO -  		particleFile : 
+cfgUtils - INFO -  		seed : 12345
+cfgUtils - INFO -  		iniStep : False
+cfgUtils - INFO -  		saveParticlesIni : False
+cfgUtils - INFO -  		subgridMixingFactorIni : 10.
+cfgUtils - INFO -  		dtIni : 0.1
+cfgUtils - INFO -  		sphOptionIni : 2
+cfgUtils - INFO -  		stopCritIni : 0.1
+cfgUtils - INFO -  		stopCritIniSmall : 1.001
+cfgUtils - INFO -  		maxIterations : 100
+cfgUtils - INFO -  		bufferZoneFactor : 4
+cfgUtils - INFO -  		additionallyFixedFactor : 0.275
+cfgUtils - INFO -  		ftOptionIni : False
+cfgUtils - INFO -  		rho : 200
+cfgUtils - INFO -  		rhoEnt : 100
+cfgUtils - INFO -  		relThFromShp : True
+cfgUtils - INFO -  		relThPercentVariation : 
+cfgUtils - INFO -  		relThRangeVariation : 
+cfgUtils - INFO -  		relThDistVariation : 
+cfgUtils - INFO -  		addStandardConfig : False
+cfgUtils - INFO -  		relTh : 
+cfgUtils - INFO -  		relThFromFile : False
+cfgUtils - INFO -  		secRelArea : True
+cfgUtils - INFO -  		secondaryRelThFromShp : True
+cfgUtils - INFO -  		secondaryRelThPercentVariation : 
+cfgUtils - INFO -  		secondaryRelThRangeVariation : 
+cfgUtils - INFO -  		secondaryRelThDistVariation : 
+cfgUtils - INFO -  		secondaryRelTh : 
+cfgUtils - INFO -  		entThFromShp : True
+cfgUtils - INFO -  		entThPercentVariation : 
+cfgUtils - INFO -  		entThRangeVariation : 
+cfgUtils - INFO -  		entThDistVariation : 
+cfgUtils - INFO -  		entTh : 
+cfgUtils - INFO -  		dt : 0.1
+cfgUtils - INFO -  		tEnd : 400
+cfgUtils - INFO -  		sphKernelRadiusTimeStepping : False
+cfgUtils - INFO -  		cMax : 0.02
+cfgUtils - INFO -  		stopCritType : kinEnergy
+cfgUtils - INFO -  		uFlowingThreshold : 0.01
+cfgUtils - INFO -  		stopCrit : 0.01
+cfgUtils - INFO -  		sphOption : 1
+cfgUtils - INFO -  		minRKern : 0.001
+cfgUtils - INFO -  		sphKernelRadius : 5
+cfgUtils - INFO -  		viscOption : 1
+cfgUtils - INFO -  		massPerParticleDeterminationMethod : MPPDH
+cfgUtils - INFO -  		massPerPart : 1250
+cfgUtils - INFO -  		deltaTh : 0.25
+cfgUtils - INFO -  		sphKR0 : 5
+cfgUtils - INFO -  		nPPK0 : 15
+cfgUtils - INFO -  		aPPK : -1.5
+cfgUtils - INFO -  		splitOption : 0
+cfgUtils - INFO -  		thresholdMassSplit : 1.5
+cfgUtils - INFO -  		distSplitPart : 0.41
+cfgUtils - INFO -  		nSplit : 2
+cfgUtils - INFO -  		cMinNPPK : 0.25
+cfgUtils - INFO -  		cMaxNPPK : 2.5
+cfgUtils - INFO -  		cMinMass : 0.25
+cfgUtils - INFO -  		cMaxnMass : 5
+cfgUtils - INFO -  		interpOption : 2
+cfgUtils - INFO -  		hmin : 0.05
+cfgUtils - INFO -  		meshCellSize : 5
+cfgUtils - INFO -  		meshCellSizeThreshold : 0.001
+cfgUtils - INFO -  		cleanDEMremeshed : True
+cfgUtils - INFO -  		methodMeshNormal : 1
+cfgUtils - INFO -  		reprojMethodForce : 2
+cfgUtils - INFO -  		reprojMethodPosition : 2
+cfgUtils - INFO -  		reprojectionIterations : 5
+cfgUtils - INFO -  		thresholdProjection : 0.001
+cfgUtils - INFO -  		subgridMixingFactor : 100.
+cfgUtils - INFO -  		gravAcc : 9.81
+cfgUtils - INFO -  		velMagMin : 1.0e-6
+cfgUtils - INFO -  		depMin : 1.0e-6
+cfgUtils - INFO -  		curvAccInFriction : 1
+cfgUtils - INFO -  		curvAccInTangent : 0
+cfgUtils - INFO -  		curvAccInGradient : 0
+cfgUtils - INFO -  		centeredPosition : 1
+cfgUtils - INFO -  		explicitFriction : 0
+cfgUtils - INFO -  		frictModel : samosAT
+cfgUtils - INFO -  		mu : 0.155
+cfgUtils - INFO -  		tau0 : 0
+cfgUtils - INFO -  		Rs0 : 0.222
+cfgUtils - INFO -  		kappa : 0.43
+cfgUtils - INFO -  		R : 0.05
+cfgUtils - INFO -  		B : 4.13
+cfgUtils - INFO -  		xsi : 4000.
+cfgUtils - INFO -  		hRes : 10
+cfgUtils - INFO -  		cw : 0.5
+cfgUtils - INFO -  		dRes : 0.3
+cfgUtils - INFO -  		sres : 5
+cfgUtils - INFO -  		entEroEnergy : 5000
+cfgUtils - INFO -  		entShearResistance : 0
+cfgUtils - INFO -  		entDefResistance : 0
+cfgUtils - INFO -  		thresholdPointInPoly : 0.001
+cfgUtils - INFO -  	TRACKPARTICLES
+cfgUtils - INFO -  		trackParticles : False
+cfgUtils - INFO -  		centerTrackPartPoint : 2933|-4010
+cfgUtils - INFO -  		radius : 5
+cfgUtils - INFO -  		particleProperties : 
+cfgUtils - INFO -  	VISUALISATION
+cfgUtils - INFO -  		writePartToCSV : False
+cfgUtils - INFO -  		particleProperties : velocityMagnitude|m
+cfgUtils - INFO -  		createRangeTimeDiagram : False
+cfgUtils - INFO -  		TTdiagram : True
+cfgUtils - INFO -  		scenario : 
+cfgUtils - INFO -  	INPUT
+cfgUtils - INFO -  		releaseScenario : relGar 	(default value was : )
+cfgUtils - INFO -  	REPORT
+cfgUtils - INFO -  		plotFields : ppr|pft|pfv
+cfgUtils - INFO -  		unitppr : kPa
+cfgUtils - INFO -  		unitpft : m
+cfgUtils - INFO -  		unitpfv : ms-1
+cfgUtils - INFO -  		DEM : avaGar added to INPUT
+cfgUtils - INFO -  		relThId : 0 added to INPUT
+cfgUtils - INFO -  		relThThickness : 1.2 added to INPUT
+cfgUtils - INFO -  		relThCi95 : None added to INPUT
+cfgUtils - INFO -  		entThId : 0 added to INPUT
+cfgUtils - INFO -  		entThThickness : 0.3 added to INPUT
+cfgUtils - INFO -  		entThCi95 : None added to INPUT
+cfgUtils - INFO -  		entrainmentScenario : entGar added to INPUT
+cfgUtils - INFO -  		secondaryRelThId : 0 added to INPUT
+cfgUtils - INFO -  		secondaryRelThThickness : 1.0 added to INPUT
+cfgUtils - INFO -  		secondaryRelThCi95 : None added to INPUT
+cfgUtils - INFO -  		secondaryReleaseScenario : secondaryGar6 added to INPUT
+deriveParameterSet - INFO -  releaseScenario: relGar (default value was: )
+com1DFA - INFO -  Using the secondary release area file: data/avaGar/Inputs/SECREL/secondaryGar6.shp
+geoTrans - INFO -  Remeshing the input DEM (of cell size 5 m) to a cell size of 5 m
+geoTrans - INFO -  Remeshed data extent difference x: 3.795002 and y 4.103797
+geoTrans - INFO -  Saved remeshed DEM to data/avaGar/Inputs/DEMremeshed/avaGar_remeshedDEM5.00.asc
+deriveParameterSet - INFO -  path to DEM is: DEMremeshed/avaGar_remeshedDEM5.00.asc
+geoTrans - INFO -  Remeshed DEM found: avaGar_remeshedDEM5.00.asc cellSize: 5.00000
+deriveParameterSet - INFO -  path to DEM is: DEMremeshed/avaGar_remeshedDEM5.00.asc
+com1DFA - INFO -  The following simulations will be performed
+com1DFA - INFO -  Simulation: relGar_f9a98d3d16_ent_dfa
+com1DFA - INFO -  Simulation: relGar_4e45a18a6f_null_dfa
+com1DFA - INFO -  Run simulation: relGar_f9a98d3d16_ent_dfa
+com1DFA - INFO -  Perform relGar_f9a98d3d16_ent_dfa simulation
+com1DFA - INFO -  Release feature GaR1, thickness: 1.20 - read from shp file
+com1DFA - INFO -  Initialized particles. MTot = 12299877.93 kg, 9851 particles in 1770.00 cells.
+com1DFA - INFO -  Mass per particle = 1248.59 kg and particles per cell = 5.57.
+com1DFA - INFO -  Computing Pressure
+com1DFA - INFO -  Initializing secondary release area: data/avaGar/Inputs/SECREL/secondaryGar6.shp
+com1DFA - INFO -  Secondary release area features: ['GaR6']
+com1DFA - INFO -  Secondary release feature GaR6, thickness: 1.00 - read from shp file
+com1DFA - INFO -  Initializing entrainment area: data/avaGar/Inputs/ENT/entGar.shp
+com1DFA - INFO -  Entrainment area features: ['entGar']
+com1DFA - INFO -  Entrainment feature entGar, thickness: 0.30 - read from shp file
+geoTrans - WARNING -  Entrainment area feature overlapping with Secondary release  area - removing the overlapping part
+com1DFA - INFO -  Mass available for entrainment: 4803461.18 kg
+com1DFA - INFO -  Initializing secondary release area feature GaR6
+com1DFA - INFO -  Initialized particles. MTot = 21986818.98 kg, 17609 particles in 3411.00 cells.
+com1DFA - INFO -  Mass per particle = 1248.61 kg and particles per cell = 5.16.
+com1DFA - INFO -  Releasing secondary release area GaR6 at t = 16.50 s
+com1DFA - INFO -  stopping because of kinEnergy stopCriterion.
+com1DFA - INFO -  Ending computation at time t = 110.800000 s
+com1DFA - INFO -  MTot = 37679652.032840 kg, 28290 particles
+com1DFA - INFO -  Computational performances:
+com1DFA - INFO -  cpu time Force = 0.011730981152588662 s
+com1DFA - INFO -  cpu time ForceSPH = 0.02852752920310706 s
+com1DFA - INFO -  cpu time Position = 0.009826478278776673 s
+com1DFA - INFO -  cpu time Neighbour = 0.0018761936235900823 s
+com1DFA - INFO -  cpu time Fields = 0.006869379306720978 s
+com1DFA - INFO -  cpu time timeLoop = 0.06274839647188178 s
+com1DFA - INFO -  cpu time total other = 0.05883056156478345 s
+com1DFA - INFO -  cpu time DFA = 70.12 s
+com1DFA - INFO -  Run simulation: relGar_4e45a18a6f_null_dfa
+com1DFA - INFO -  Perform relGar_4e45a18a6f_null_dfa simulation
+com1DFA - INFO -  Release feature GaR1, thickness: 1.20 - read from shp file
+com1DFA - INFO -  Initialized particles. MTot = 12299877.93 kg, 9851 particles in 1770.00 cells.
+com1DFA - INFO -  Mass per particle = 1248.59 kg and particles per cell = 5.57.
+com1DFA - INFO -  Computing Pressure
+com1DFA - INFO -  Initializing secondary release area: data/avaGar/Inputs/SECREL/secondaryGar6.shp
+com1DFA - INFO -  Secondary release area features: ['GaR6']
+com1DFA - INFO -  Secondary release feature GaR6, thickness: 1.00 - read from shp file
+com1DFA - INFO -  Mass available for entrainment: 0.00 kg
+com1DFA - INFO -  Initializing secondary release area feature GaR6
+com1DFA - INFO -  Initialized particles. MTot = 21986818.98 kg, 17609 particles in 3411.00 cells.
+com1DFA - INFO -  Mass per particle = 1248.61 kg and particles per cell = 5.16.
+com1DFA - INFO -  Releasing secondary release area GaR6 at t = 16.30 s
+com1DFA - INFO -  stopping because of kinEnergy stopCriterion.
+com1DFA - INFO -  Ending computation at time t = 113.200000 s
+com1DFA - INFO -  MTot = 34286696.905513 kg, 27460 particles
+com1DFA - INFO -  Computational performances:
+com1DFA - INFO -  cpu time Force = 0.0114741180180872 s
+com1DFA - INFO -  cpu time ForceSPH = 0.028154331082700105 s
+com1DFA - INFO -  cpu time Position = 0.009682180180764261 s
+com1DFA - INFO -  cpu time Neighbour = 0.0018547338820724285 s
+com1DFA - INFO -  cpu time Fields = 0.006762506892380205 s
+com1DFA - INFO -  cpu time timeLoop = 0.0608177582773611 s
+com1DFA - INFO -  cpu time total other = 0.0579278700560042 s
+com1DFA - INFO -  cpu time DFA = 69.42 s
+cfgUtils - INFO -  Reading config from: /home/user1/Master_Carina/AvaFrame/avaframe/com1DFA/com1DFACfg.ini and data/avaGar/Outputs/com1DFA/relGar2_com1DFACfg.ini
+cfgUtils - INFO -  	GENERAL
+cfgUtils - INFO -  		simTypeList : available
+cfgUtils - INFO -  		modelType : dfa
+cfgUtils - INFO -  		resType : ppr|pft|pfv
+cfgUtils - INFO -  		tSteps : 1
+cfgUtils - INFO -  		initPartDistType : random
+cfgUtils - INFO -  		initialiseParticlesFromFile : False
+cfgUtils - INFO -  		particleFile : 
+cfgUtils - INFO -  		seed : 12345
+cfgUtils - INFO -  		iniStep : False
+cfgUtils - INFO -  		saveParticlesIni : False
+cfgUtils - INFO -  		subgridMixingFactorIni : 10.
+cfgUtils - INFO -  		dtIni : 0.1
+cfgUtils - INFO -  		sphOptionIni : 2
+cfgUtils - INFO -  		stopCritIni : 0.1
+cfgUtils - INFO -  		stopCritIniSmall : 1.001
+cfgUtils - INFO -  		maxIterations : 100
+cfgUtils - INFO -  		bufferZoneFactor : 4
+cfgUtils - INFO -  		additionallyFixedFactor : 0.275
+cfgUtils - INFO -  		ftOptionIni : False
+cfgUtils - INFO -  		rho : 200
+cfgUtils - INFO -  		rhoEnt : 100
+cfgUtils - INFO -  		relThFromShp : True
+cfgUtils - INFO -  		relThPercentVariation : 
+cfgUtils - INFO -  		relThRangeVariation : 
+cfgUtils - INFO -  		relThDistVariation : 
+cfgUtils - INFO -  		addStandardConfig : False
+cfgUtils - INFO -  		relTh : 
+cfgUtils - INFO -  		relThFromFile : False
+cfgUtils - INFO -  		secRelArea : True
+cfgUtils - INFO -  		secondaryRelThFromShp : True
+cfgUtils - INFO -  		secondaryRelThPercentVariation : 
+cfgUtils - INFO -  		secondaryRelThRangeVariation : 
+cfgUtils - INFO -  		secondaryRelThDistVariation : 
+cfgUtils - INFO -  		secondaryRelTh : 
+cfgUtils - INFO -  		entThFromShp : True
+cfgUtils - INFO -  		entThPercentVariation : 
+cfgUtils - INFO -  		entThRangeVariation : 
+cfgUtils - INFO -  		entThDistVariation : 
+cfgUtils - INFO -  		entTh : 
+cfgUtils - INFO -  		dt : 0.1
+cfgUtils - INFO -  		tEnd : 400
+cfgUtils - INFO -  		sphKernelRadiusTimeStepping : False
+cfgUtils - INFO -  		cMax : 0.02
+cfgUtils - INFO -  		stopCritType : kinEnergy
+cfgUtils - INFO -  		uFlowingThreshold : 0.01
+cfgUtils - INFO -  		stopCrit : 0.01
+cfgUtils - INFO -  		sphOption : 1
+cfgUtils - INFO -  		minRKern : 0.001
+cfgUtils - INFO -  		sphKernelRadius : 5
+cfgUtils - INFO -  		viscOption : 1
+cfgUtils - INFO -  		massPerParticleDeterminationMethod : MPPDH
+cfgUtils - INFO -  		massPerPart : 1250
+cfgUtils - INFO -  		deltaTh : 0.25
+cfgUtils - INFO -  		sphKR0 : 5
+cfgUtils - INFO -  		nPPK0 : 15
+cfgUtils - INFO -  		aPPK : -1.5
+cfgUtils - INFO -  		splitOption : 0
+cfgUtils - INFO -  		thresholdMassSplit : 1.5
+cfgUtils - INFO -  		distSplitPart : 0.41
+cfgUtils - INFO -  		nSplit : 2
+cfgUtils - INFO -  		cMinNPPK : 0.25
+cfgUtils - INFO -  		cMaxNPPK : 2.5
+cfgUtils - INFO -  		cMinMass : 0.25
+cfgUtils - INFO -  		cMaxnMass : 5
+cfgUtils - INFO -  		interpOption : 2
+cfgUtils - INFO -  		hmin : 0.05
+cfgUtils - INFO -  		meshCellSize : 5
+cfgUtils - INFO -  		meshCellSizeThreshold : 0.001
+cfgUtils - INFO -  		cleanDEMremeshed : True
+cfgUtils - INFO -  		methodMeshNormal : 1
+cfgUtils - INFO -  		reprojMethodForce : 2
+cfgUtils - INFO -  		reprojMethodPosition : 2
+cfgUtils - INFO -  		reprojectionIterations : 5
+cfgUtils - INFO -  		thresholdProjection : 0.001
+cfgUtils - INFO -  		subgridMixingFactor : 100.
+cfgUtils - INFO -  		gravAcc : 9.81
+cfgUtils - INFO -  		velMagMin : 1.0e-6
+cfgUtils - INFO -  		depMin : 1.0e-6
+cfgUtils - INFO -  		curvAccInFriction : 1
+cfgUtils - INFO -  		curvAccInTangent : 0
+cfgUtils - INFO -  		curvAccInGradient : 0
+cfgUtils - INFO -  		centeredPosition : 1
+cfgUtils - INFO -  		explicitFriction : 0
+cfgUtils - INFO -  		frictModel : samosAT
+cfgUtils - INFO -  		mu : 0.155
+cfgUtils - INFO -  		tau0 : 0
+cfgUtils - INFO -  		Rs0 : 0.222
+cfgUtils - INFO -  		kappa : 0.43
+cfgUtils - INFO -  		R : 0.05
+cfgUtils - INFO -  		B : 4.13
+cfgUtils - INFO -  		xsi : 4000.
+cfgUtils - INFO -  		hRes : 10
+cfgUtils - INFO -  		cw : 0.5
+cfgUtils - INFO -  		dRes : 0.3
+cfgUtils - INFO -  		sres : 5
+cfgUtils - INFO -  		entEroEnergy : 5000
+cfgUtils - INFO -  		entShearResistance : 0
+cfgUtils - INFO -  		entDefResistance : 0
+cfgUtils - INFO -  		thresholdPointInPoly : 0.001
+cfgUtils - INFO -  	TRACKPARTICLES
+cfgUtils - INFO -  		trackParticles : False
+cfgUtils - INFO -  		centerTrackPartPoint : 2933|-4010
+cfgUtils - INFO -  		radius : 5
+cfgUtils - INFO -  		particleProperties : 
+cfgUtils - INFO -  	VISUALISATION
+cfgUtils - INFO -  		writePartToCSV : False
+cfgUtils - INFO -  		particleProperties : velocityMagnitude|m
+cfgUtils - INFO -  		createRangeTimeDiagram : False
+cfgUtils - INFO -  		TTdiagram : True
+cfgUtils - INFO -  		scenario : 
+cfgUtils - INFO -  	INPUT
+cfgUtils - INFO -  		releaseScenario : relGar2 	(default value was : )
+cfgUtils - INFO -  	REPORT
+cfgUtils - INFO -  		plotFields : ppr|pft|pfv
+cfgUtils - INFO -  		unitppr : kPa
+cfgUtils - INFO -  		unitpft : m
+cfgUtils - INFO -  		unitpfv : ms-1
+cfgUtils - INFO -  		DEM : avaGar added to INPUT
+cfgUtils - INFO -  		relThId : 0 added to INPUT
+cfgUtils - INFO -  		relThThickness : 1.5 added to INPUT
+cfgUtils - INFO -  		relThCi95 : None added to INPUT
+cfgUtils - INFO -  		entThId : 0 added to INPUT
+cfgUtils - INFO -  		entThThickness : 0.3 added to INPUT
+cfgUtils - INFO -  		entThCi95 : None added to INPUT
+cfgUtils - INFO -  		entrainmentScenario : entGar added to INPUT
+cfgUtils - INFO -  		secondaryRelThId : 0 added to INPUT
+cfgUtils - INFO -  		secondaryRelThThickness : 1.0 added to INPUT
+cfgUtils - INFO -  		secondaryRelThCi95 : None added to INPUT
+cfgUtils - INFO -  		secondaryReleaseScenario : secondaryGar6 added to INPUT
+deriveParameterSet - INFO -  releaseScenario: relGar2 (default value was: )
+com1DFA - INFO -  Using the secondary release area file: data/avaGar/Inputs/SECREL/secondaryGar6.shp
+geoTrans - INFO -  Remeshed DEM found: avaGar_remeshedDEM5.00.asc cellSize: 5.00000
+deriveParameterSet - INFO -  path to DEM is: DEMremeshed/avaGar_remeshedDEM5.00.asc
+geoTrans - INFO -  Remeshed DEM found: avaGar_remeshedDEM5.00.asc cellSize: 5.00000
+deriveParameterSet - INFO -  path to DEM is: DEMremeshed/avaGar_remeshedDEM5.00.asc
+com1DFA - INFO -  The following simulations will be performed
+com1DFA - INFO -  Simulation: relGar2_17077b1258_ent_dfa
+com1DFA - INFO -  Simulation: relGar2_f206c1bbc0_null_dfa
+com1DFA - INFO -  Run simulation: relGar2_17077b1258_ent_dfa
+com1DFA - INFO -  Perform relGar2_17077b1258_ent_dfa simulation
+com1DFA - INFO -  Release feature GaR2, thickness: 1.50 - read from shp file
+com1DFA - INFO -  Initialized particles. MTot = 66687983.76 kg, 53333 particles in 7170.00 cells.
+com1DFA - INFO -  Mass per particle = 1250.41 kg and particles per cell = 7.44.
+com1DFA - INFO -  Computing Pressure
+com1DFA - INFO -  Initializing secondary release area: data/avaGar/Inputs/SECREL/secondaryGar6.shp
+com1DFA - INFO -  Secondary release area features: ['GaR6']
+com1DFA - INFO -  Secondary release feature GaR6, thickness: 1.00 - read from shp file
+com1DFA - INFO -  Initializing entrainment area: data/avaGar/Inputs/ENT/entGar.shp
+com1DFA - INFO -  Entrainment area features: ['entGar']
+com1DFA - INFO -  Entrainment feature entGar, thickness: 0.30 - read from shp file
+geoTrans - WARNING -  Entrainment area feature overlapping with Release area - removing the overlapping part
+geoTrans - WARNING -  Entrainment area feature overlapping with Secondary release  area - removing the overlapping part
+com1DFA - INFO -  Mass available for entrainment: 3010895.35 kg
+com1DFA - INFO -  Initializing secondary release area feature GaR6
+com1DFA - INFO -  Initialized particles. MTot = 21986818.98 kg, 17609 particles in 3411.00 cells.
+com1DFA - INFO -  Mass per particle = 1248.61 kg and particles per cell = 5.16.
+com1DFA - INFO -  Releasing secondary release area GaR6 at t = 9.90 s
+com1DFA - INFO -  stopping because of kinEnergy stopCriterion.
+com1DFA - INFO -  Ending computation at time t = 101.000000 s
+com1DFA - INFO -  MTot = 91265285.418911 kg, 71345 particles
+com1DFA - INFO -  Computational performances:
+com1DFA - INFO -  cpu time Force = 0.03212318811878842 s
+com1DFA - INFO -  cpu time ForceSPH = 0.132470760336026 s
+com1DFA - INFO -  cpu time Position = 0.02744114505077328 s
+com1DFA - INFO -  cpu time Neighbour = 0.003403898280640856 s
+com1DFA - INFO -  cpu time Fields = 0.012566089865951462 s
+com1DFA - INFO -  cpu time timeLoop = 0.2120511406842844 s
+com1DFA - INFO -  cpu time total other = 0.20800508165218 s
+com1DFA - INFO -  cpu time DFA = 216.76 s
+com1DFA - INFO -  Run simulation: relGar2_f206c1bbc0_null_dfa
+com1DFA - INFO -  Perform relGar2_f206c1bbc0_null_dfa simulation
+com1DFA - INFO -  Release feature GaR2, thickness: 1.50 - read from shp file
+com1DFA - INFO -  Initialized particles. MTot = 66687983.76 kg, 53333 particles in 7170.00 cells.
+com1DFA - INFO -  Mass per particle = 1250.41 kg and particles per cell = 7.44.
+com1DFA - INFO -  Computing Pressure
+com1DFA - INFO -  Initializing secondary release area: data/avaGar/Inputs/SECREL/secondaryGar6.shp
+com1DFA - INFO -  Secondary release area features: ['GaR6']
+com1DFA - INFO -  Secondary release feature GaR6, thickness: 1.00 - read from shp file
+com1DFA - INFO -  Mass available for entrainment: 0.00 kg
+com1DFA - INFO -  Initializing secondary release area feature GaR6
+com1DFA - INFO -  Initialized particles. MTot = 21986818.98 kg, 17609 particles in 3411.00 cells.
+com1DFA - INFO -  Mass per particle = 1248.61 kg and particles per cell = 5.16.
+com1DFA - INFO -  Releasing secondary release area GaR6 at t = 9.80 s
+com1DFA - INFO -  stopping because of kinEnergy stopCriterion.
+com1DFA - INFO -  Ending computation at time t = 101.400000 s
+com1DFA - INFO -  MTot = 88674802.734464 kg, 70942 particles
+com1DFA - INFO -  Computational performances:
+com1DFA - INFO -  cpu time Force = 0.03233143167542706 s
+com1DFA - INFO -  cpu time ForceSPH = 0.1348418029071075 s
+com1DFA - INFO -  cpu time Position = 0.026976068149059278 s
+com1DFA - INFO -  cpu time Neighbour = 0.0034764978098751876 s
+com1DFA - INFO -  cpu time Fields = 0.012684488061613637 s
+com1DFA - INFO -  cpu time timeLoop = 0.2137573437150476 s
+com1DFA - INFO -  cpu time total other = 0.21031028860308268 s
+com1DFA - INFO -  cpu time DFA = 219.48 s
+cfgUtils - INFO -  Reading config from: /home/user1/Master_Carina/AvaFrame/avaframe/com1DFA/com1DFACfg.ini and data/avaGar/Outputs/com1DFA/relGar6_com1DFACfg.ini
+cfgUtils - INFO -  	GENERAL
+cfgUtils - INFO -  		simTypeList : available
+cfgUtils - INFO -  		modelType : dfa
+cfgUtils - INFO -  		resType : ppr|pft|pfv
+cfgUtils - INFO -  		tSteps : 1
+cfgUtils - INFO -  		initPartDistType : random
+cfgUtils - INFO -  		initialiseParticlesFromFile : False
+cfgUtils - INFO -  		particleFile : 
+cfgUtils - INFO -  		seed : 12345
+cfgUtils - INFO -  		iniStep : False
+cfgUtils - INFO -  		saveParticlesIni : False
+cfgUtils - INFO -  		subgridMixingFactorIni : 10.
+cfgUtils - INFO -  		dtIni : 0.1
+cfgUtils - INFO -  		sphOptionIni : 2
+cfgUtils - INFO -  		stopCritIni : 0.1
+cfgUtils - INFO -  		stopCritIniSmall : 1.001
+cfgUtils - INFO -  		maxIterations : 100
+cfgUtils - INFO -  		bufferZoneFactor : 4
+cfgUtils - INFO -  		additionallyFixedFactor : 0.275
+cfgUtils - INFO -  		ftOptionIni : False
+cfgUtils - INFO -  		rho : 200
+cfgUtils - INFO -  		rhoEnt : 100
+cfgUtils - INFO -  		relThFromShp : True
+cfgUtils - INFO -  		relThPercentVariation : 
+cfgUtils - INFO -  		relThRangeVariation : 
+cfgUtils - INFO -  		relThDistVariation : 
+cfgUtils - INFO -  		addStandardConfig : False
+cfgUtils - INFO -  		relTh : 
+cfgUtils - INFO -  		relThFromFile : False
+cfgUtils - INFO -  		secRelArea : True
+cfgUtils - INFO -  		secondaryRelThFromShp : True
+cfgUtils - INFO -  		secondaryRelThPercentVariation : 
+cfgUtils - INFO -  		secondaryRelThRangeVariation : 
+cfgUtils - INFO -  		secondaryRelThDistVariation : 
+cfgUtils - INFO -  		secondaryRelTh : 
+cfgUtils - INFO -  		entThFromShp : True
+cfgUtils - INFO -  		entThPercentVariation : 
+cfgUtils - INFO -  		entThRangeVariation : 
+cfgUtils - INFO -  		entThDistVariation : 
+cfgUtils - INFO -  		entTh : 
+cfgUtils - INFO -  		dt : 0.1
+cfgUtils - INFO -  		tEnd : 400
+cfgUtils - INFO -  		sphKernelRadiusTimeStepping : False
+cfgUtils - INFO -  		cMax : 0.02
+cfgUtils - INFO -  		stopCritType : kinEnergy
+cfgUtils - INFO -  		uFlowingThreshold : 0.01
+cfgUtils - INFO -  		stopCrit : 0.01
+cfgUtils - INFO -  		sphOption : 1
+cfgUtils - INFO -  		minRKern : 0.001
+cfgUtils - INFO -  		sphKernelRadius : 5
+cfgUtils - INFO -  		viscOption : 1
+cfgUtils - INFO -  		massPerParticleDeterminationMethod : MPPDH
+cfgUtils - INFO -  		massPerPart : 1250
+cfgUtils - INFO -  		deltaTh : 0.25
+cfgUtils - INFO -  		sphKR0 : 5
+cfgUtils - INFO -  		nPPK0 : 15
+cfgUtils - INFO -  		aPPK : -1.5
+cfgUtils - INFO -  		splitOption : 0
+cfgUtils - INFO -  		thresholdMassSplit : 1.5
+cfgUtils - INFO -  		distSplitPart : 0.41
+cfgUtils - INFO -  		nSplit : 2
+cfgUtils - INFO -  		cMinNPPK : 0.25
+cfgUtils - INFO -  		cMaxNPPK : 2.5
+cfgUtils - INFO -  		cMinMass : 0.25
+cfgUtils - INFO -  		cMaxnMass : 5
+cfgUtils - INFO -  		interpOption : 2
+cfgUtils - INFO -  		hmin : 0.05
+cfgUtils - INFO -  		meshCellSize : 5
+cfgUtils - INFO -  		meshCellSizeThreshold : 0.001
+cfgUtils - INFO -  		cleanDEMremeshed : True
+cfgUtils - INFO -  		methodMeshNormal : 1
+cfgUtils - INFO -  		reprojMethodForce : 2
+cfgUtils - INFO -  		reprojMethodPosition : 2
+cfgUtils - INFO -  		reprojectionIterations : 5
+cfgUtils - INFO -  		thresholdProjection : 0.001
+cfgUtils - INFO -  		subgridMixingFactor : 100.
+cfgUtils - INFO -  		gravAcc : 9.81
+cfgUtils - INFO -  		velMagMin : 1.0e-6
+cfgUtils - INFO -  		depMin : 1.0e-6
+cfgUtils - INFO -  		curvAccInFriction : 1
+cfgUtils - INFO -  		curvAccInTangent : 0
+cfgUtils - INFO -  		curvAccInGradient : 0
+cfgUtils - INFO -  		centeredPosition : 1
+cfgUtils - INFO -  		explicitFriction : 0
+cfgUtils - INFO -  		frictModel : samosAT
+cfgUtils - INFO -  		mu : 0.155
+cfgUtils - INFO -  		tau0 : 0
+cfgUtils - INFO -  		Rs0 : 0.222
+cfgUtils - INFO -  		kappa : 0.43
+cfgUtils - INFO -  		R : 0.05
+cfgUtils - INFO -  		B : 4.13
+cfgUtils - INFO -  		xsi : 4000.
+cfgUtils - INFO -  		hRes : 10
+cfgUtils - INFO -  		cw : 0.5
+cfgUtils - INFO -  		dRes : 0.3
+cfgUtils - INFO -  		sres : 5
+cfgUtils - INFO -  		entEroEnergy : 5000
+cfgUtils - INFO -  		entShearResistance : 0
+cfgUtils - INFO -  		entDefResistance : 0
+cfgUtils - INFO -  		thresholdPointInPoly : 0.001
+cfgUtils - INFO -  	TRACKPARTICLES
+cfgUtils - INFO -  		trackParticles : False
+cfgUtils - INFO -  		centerTrackPartPoint : 2933|-4010
+cfgUtils - INFO -  		radius : 5
+cfgUtils - INFO -  		particleProperties : 
+cfgUtils - INFO -  	VISUALISATION
+cfgUtils - INFO -  		writePartToCSV : False
+cfgUtils - INFO -  		particleProperties : velocityMagnitude|m
+cfgUtils - INFO -  		createRangeTimeDiagram : False
+cfgUtils - INFO -  		TTdiagram : True
+cfgUtils - INFO -  		scenario : 
+cfgUtils - INFO -  	INPUT
+cfgUtils - INFO -  		releaseScenario : relGar6 	(default value was : )
+cfgUtils - INFO -  	REPORT
+cfgUtils - INFO -  		plotFields : ppr|pft|pfv
+cfgUtils - INFO -  		unitppr : kPa
+cfgUtils - INFO -  		unitpft : m
+cfgUtils - INFO -  		unitpfv : ms-1
+cfgUtils - INFO -  		DEM : avaGar added to INPUT
+cfgUtils - INFO -  		relThId : 0 added to INPUT
+cfgUtils - INFO -  		relThThickness : 1.0 added to INPUT
+cfgUtils - INFO -  		relThCi95 : None added to INPUT
+cfgUtils - INFO -  		entThId : 0 added to INPUT
+cfgUtils - INFO -  		entThThickness : 0.3 added to INPUT
+cfgUtils - INFO -  		entThCi95 : None added to INPUT
+cfgUtils - INFO -  		entrainmentScenario : entGar added to INPUT
+cfgUtils - INFO -  		secondaryRelThId : 0 added to INPUT
+cfgUtils - INFO -  		secondaryRelThThickness : 1.0 added to INPUT
+cfgUtils - INFO -  		secondaryRelThCi95 : None added to INPUT
+cfgUtils - INFO -  		secondaryReleaseScenario : secondaryGar6 added to INPUT
+deriveParameterSet - INFO -  releaseScenario: relGar6 (default value was: )
+com1DFA - INFO -  Using the secondary release area file: data/avaGar/Inputs/SECREL/secondaryGar6.shp
+geoTrans - INFO -  Remeshed DEM found: avaGar_remeshedDEM5.00.asc cellSize: 5.00000
+deriveParameterSet - INFO -  path to DEM is: DEMremeshed/avaGar_remeshedDEM5.00.asc
+geoTrans - INFO -  Remeshed DEM found: avaGar_remeshedDEM5.00.asc cellSize: 5.00000
+deriveParameterSet - INFO -  path to DEM is: DEMremeshed/avaGar_remeshedDEM5.00.asc
+com1DFA - INFO -  The following simulations will be performed
+com1DFA - INFO -  Simulation: relGar6_9b9013e6ad_ent_dfa
+com1DFA - INFO -  Simulation: relGar6_5c4d5b0c28_null_dfa
+com1DFA - INFO -  Run simulation: relGar6_9b9013e6ad_ent_dfa
+com1DFA - INFO -  Perform relGar6_9b9013e6ad_ent_dfa simulation
+com1DFA - INFO -  Release feature GaR6, thickness: 1.00 - read from shp file
+com1DFA - INFO -  Initialized particles. MTot = 21986818.98 kg, 17609 particles in 3411.00 cells.
+com1DFA - INFO -  Mass per particle = 1248.61 kg and particles per cell = 5.16.
+com1DFA - INFO -  Computing Pressure
+com1DFA - INFO -  Initializing secondary release area: data/avaGar/Inputs/SECREL/secondaryGar6.shp
+com1DFA - INFO -  Secondary release area features: ['GaR6']
+com1DFA - INFO -  Secondary release feature GaR6, thickness: 1.00 - read from shp file
+geoTrans - WARNING -  Secondary release GaR6 area feature overlapping with Release area - removing the overlapping part
+com1DFA - INFO -  Initializing entrainment area: data/avaGar/Inputs/ENT/entGar.shp
+com1DFA - INFO -  Entrainment area features: ['entGar']
+com1DFA - INFO -  Entrainment feature entGar, thickness: 0.30 - read from shp file
+geoTrans - WARNING -  Entrainment area feature overlapping with Release area - removing the overlapping part
+com1DFA - INFO -  Mass available for entrainment: 4803461.18 kg
+com1DFA - INFO -  stopping because of kinEnergy stopCriterion.
+com1DFA - INFO -  Ending computation at time t = 95.600000 s
+com1DFA - INFO -  MTot = 23730842.179613 kg, 18027 particles
+com1DFA - INFO -  Computational performances:
+com1DFA - INFO -  cpu time Force = 0.008492345969380505 s
+com1DFA - INFO -  cpu time ForceSPH = 0.015706106911383202 s
+com1DFA - INFO -  cpu time Position = 0.007342861986708367 s
+com1DFA - INFO -  cpu time Neighbour = 0.0016508047608123429 s
+com1DFA - INFO -  cpu time Fields = 0.005810695008424382 s
+com1DFA - INFO -  cpu time timeLoop = 0.041914350435900714 s
+com1DFA - INFO -  cpu time total other = 0.0390028146367088 s
+com1DFA - INFO -  cpu time DFA = 41.03 s
+com1DFA - INFO -  Run simulation: relGar6_5c4d5b0c28_null_dfa
+com1DFA - INFO -  Perform relGar6_5c4d5b0c28_null_dfa simulation
+com1DFA - INFO -  Release feature GaR6, thickness: 1.00 - read from shp file
+com1DFA - INFO -  Initialized particles. MTot = 21986818.98 kg, 17609 particles in 3411.00 cells.
+com1DFA - INFO -  Mass per particle = 1248.61 kg and particles per cell = 5.16.
+com1DFA - INFO -  Computing Pressure
+com1DFA - INFO -  Initializing secondary release area: data/avaGar/Inputs/SECREL/secondaryGar6.shp
+com1DFA - INFO -  Secondary release area features: ['GaR6']
+com1DFA - INFO -  Secondary release feature GaR6, thickness: 1.00 - read from shp file
+geoTrans - WARNING -  Secondary release GaR6 area feature overlapping with Release area - removing the overlapping part
+com1DFA - INFO -  Mass available for entrainment: 0.00 kg
+com1DFA - INFO -  stopping because of kinEnergy stopCriterion.
+com1DFA - INFO -  Ending computation at time t = 96.600000 s
+com1DFA - INFO -  MTot = 21986818.976826 kg, 17609 particles
+com1DFA - INFO -  Computational performances:
+com1DFA - INFO -  cpu time Force = 0.008312548821813195 s
+com1DFA - INFO -  cpu time ForceSPH = 0.015457037686068861 s
+com1DFA - INFO -  cpu time Position = 0.007025445506146183 s
+com1DFA - INFO -  cpu time Neighbour = 0.0015864574428428168 s
+com1DFA - INFO -  cpu time Fields = 0.005747777599583244 s
+com1DFA - INFO -  cpu time timeLoop = 0.04061722681465662 s
+com1DFA - INFO -  cpu time total other = 0.0381292670564543 s
+com1DFA - INFO -  cpu time DFA = 40.16 s

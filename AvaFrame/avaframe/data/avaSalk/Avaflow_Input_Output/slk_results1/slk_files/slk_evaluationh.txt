@@ -1,0 +1,1 @@
+nrun	vhr	vhem	rho1	phi1	delta1	flufri1	ny1	tauy1	centr	cstop	cvshear	deltab	ambdrag	chi1	ry	kpmax	dispmult	cconst	betaplain	vhmax	fricmin	ekincoef	VE1	VE2	VE3	Li	Ld	Lio	rLi	Ldo	rLd	rTPi	rTNi	rFPi	rFNi	CSIi	HSSi	AUROCi	D2PCi	FoCi	SPIi	rTPd	rTNd	rFPd	rFNd	CSId	HSSd	AUROCd	D2PCd	FoCd	SPId

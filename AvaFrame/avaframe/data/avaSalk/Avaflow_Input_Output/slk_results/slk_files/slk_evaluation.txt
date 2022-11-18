@@ -1,0 +1,25 @@
+Criterion	Value
+
+Entrained PHASE 1 volume VE1	-705021 cubic metres
+Entrained PHASE 2 volume VE2	0 cubic metres
+Entrained PHASE 3 volume VE3	0 cubic metres
+
+Evaluation scores for observed impact area
+Rate of positive observations rOP	16.7%
+Rate of negative observations rON	83.3%
+True positive rate rTP	8.9%
+True negative rate rTN	81.7%
+False positive rate rFP	1.7%
+False negative rate rFN	7.7%
+True positive rate out of all positive observations rTP/rOP	53.6%
+True negative rate out of all negative observations rTN/rON	98.0%
+Rate of total positive predictions rMP	10.6%
+Rate of total negative predictions rMN	89.4%
+Rate of true predictions rT	90.6%
+Rate of false predictions rF	9.4%
+Critical success index CSI	0.487
+Heidke Skill Score HSS	0.609
+Area under the ROC curve AUROC	0.758
+Distance to perfect classification D2PC	0.464
+Factor of conservativeness FoC	0.636
+Synthetic performance index SPI	0.411

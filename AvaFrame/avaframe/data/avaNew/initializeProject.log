@@ -1,0 +1,18 @@
+logUtils - INFO -  Started logging at: 20221113_10h15m30s
+logUtils - INFO -  Also logging to: initializeProject_20221113_10h15m30s.log
+logUtils - INFO -  AvaFrame Version: 1.3+6.g1e78e33a.dirty
+runInitializeProject - INFO -  MAIN SCRIPT
+runInitializeProject - INFO -  Initializing Project: data/avaNew
+initializeProject - INFO -  Running initialization sequence for avalanche avaNew
+initializeProject - WARNING -  Folder avaNew already exists. Continuing
+initializeProject - INFO -  Folder exists: data/avaNew/Inputs, Skipping
+initializeProject - INFO -  Folder exists: data/avaNew/Inputs/RES, Skipping
+initializeProject - INFO -  Folder exists: data/avaNew/Inputs/REL, Skipping
+initializeProject - INFO -  Folder exists: data/avaNew/Inputs/SECREL, Skipping
+initializeProject - INFO -  Folder exists: data/avaNew/Inputs/ENT, Skipping
+initializeProject - INFO -  Folder exists: data/avaNew/Inputs/POINTS, Skipping
+initializeProject - INFO -  Folder exists: data/avaNew/Inputs/LINES, Skipping
+initializeProject - INFO -  Folder exists: data/avaNew/Outputs, Skipping
+initializeProject - INFO -  Folder exists: data/avaNew/Work, Skipping
+initializeProject - INFO -  Folder exists: data/avaNew/Avaflow_Input, Skipping
+initializeProject - INFO -  Done initializing avalanche avaNew
